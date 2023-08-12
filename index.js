@@ -1,6 +1,6 @@
 const data = {
     "CSS": 2619,
-    "HTML": 3691,
+    "HTML": 3692,
     "JavaScript": 4780,
     "Python": 4150,
 }
