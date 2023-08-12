@@ -1,8 +1,8 @@
 const data = {
-    "CSS": 2552,
-    "HTML": 3328,
-    "JavaScript": 4462,
-    "Python": 4144,
+    "CSS": 2619,
+    "HTML": 3691,
+    "JavaScript": 4780,
+    "Python": 4150,
 }
 
 let totalLines = 0;
@@ -12,7 +12,7 @@ for (let lines of Object.values(data)) {
 
 function showData(language) {
     document.getElementById("language").innerText = language
-    document.getElementById("line-count").innerText = `${data[language]}/${totalLines} lines (as of 9th Aug 2023)`
+    document.getElementById("line-count").innerText = `${data[language]}/${totalLines} lines (as of 12th Aug 2023)`
 }
 
 function hideData() {
